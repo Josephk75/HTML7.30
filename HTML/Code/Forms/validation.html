@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="main.py" method="get">
+<div>
+    <label for="Na">Name:</label>
+    <input type="text" name="Name" id="na" required value="Josh">
+    </div>
+
+<div> <br>
+    <label for="age">Age:</label>
+    <input type="number" name="Age" id="age" required min="18" max="50">
+    </div>
+<div><br>
+    <label for="dt">Calendar</label>
+    <input type="date" name="date" id="dt">
+</div>
+<br>
+<div>
+    <label for="num" >Phone Number</label>
+
+    <select name="prefix">
+        <option value="+91" >+91</option>
+
+   </select>
+
+   <input type="number" id="num">
+</div><br>
+
+<div>
+
+<label for="pwd">Password :</label>
+<input type="text" name="Password" id="pwd" placeholder="Enter any password" pattern="[A-Za-z0-9]">
+
+
+
+</div><br>
+
+ <button type="submit">Submit</button>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+    
+
+
+
+    
+</body>
+</html>
