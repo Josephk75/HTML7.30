@@ -1,0 +1,36 @@
+body
+{
+    background-color: rgb(235, 30, 30);
+}
+
+
+
+
+
+
+
+
+
+
+#box
+{
+     height: 200px;
+
+    width: 150px;
+    border-width: 10px;
+border-color: rgb(9, 241, 241);
+
+border-style: solid;
+
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+
+box-sizing: border-box;
+
+
+padding:50px;
+
+
+
+margin: auto;
+}
