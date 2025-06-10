@@ -1,0 +1,85 @@
+.gp>p{
+    background-color: aquamarine;
+}
+#box{
+    height: 200px;
+    width: 200px;
+   border: 2px solid red;
+}
+#box:hover{
+    background-color: black;
+
+}
+a{
+    text-decoration: none;
+ color:rgb(231, 17, 17)
+}
+a:hover{
+    color:rgb(160, 22, 224);
+}
+a:active{
+
+    color: blue;
+}
+a:visited{
+    color: brown;
+}
+#inp:focus{
+    outline: 8px solid greenyellow;
+
+}
+#inp:required{
+    color: aqua;
+}
+
+.child{
+
+    height:100px;
+    width: 100px;
+    margin: 2px;
+    background-color: aqua;
+    color:black
+
+}
+
+.parent{
+    display: flex;
+    gap:10px;
+}
+.para::first-letter{
+    font-size: 50px;
+    color: red;
+
+}
+.para::before{
+
+    content:'\201c';
+
+}
+
+.para::after{
+
+    font-size: 50px;
+    content:'\201d';
+    color:red;
+
+}
+.para::selection{
+
+    color:grey;
+}
+.img{
+
+    height: 100px;
+    width:100px;
+    transition : all 1s ease;
+
+
+}
+.img:hover{
+
+   
+transform: rotate(360deg);
+
+
+}

@@ -1,0 +1,69 @@
+#body
+
+{
+    background-color: rgb(15, 134, 237);
+}
+
+
+.myEle
+{
+    height: 50vh;
+    width: 50vw;
+    border: 2px solid black;
+}
+#box
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    border-radius: 50%;
+    left: 100px;
+    top: 100px;
+    bottom: 100px;
+    right: 100px;
+}
+#boxAbs
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(77, 83, 83);
+    position: absolute;
+    border-radius: 50%;
+    bottom: 50%;
+    right: 5%;
+}
+#boxfix
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: fixed;
+    border-radius: 50%;
+    right: 0%;
+    bottom: 0%;
+
+}
+#boxsticky
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(12, 12, 12);
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}
+
+#boxsticky1
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(9, 246, 131, 0.775);
+    position: sticky;
+    top: 150px;
+    left: 150px;
+    right: 150px;
+
+}
